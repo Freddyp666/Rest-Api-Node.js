@@ -2,7 +2,8 @@ const { Router } = require("express");
 const router = Router();
 const musica = require("../musica.json");
 console.log(musica);
-const _ = require("underscore");
+const _ = require("underscore");//Para poder usar la funcion _.each
+const req = require("express/lib/request");
 
 
 router.get("/", (req, res) => {
@@ -31,13 +32,36 @@ router.post("/", (req, res) => {
 router.delete("/:id", (req, res) => {
     const { id } = req.params;
     console.log(id);
-    _.each(musica, (musica, i) => {
-        if (musica.id == id) {
+    _.each(musica, (music, i) => {
+        if (music.id == id) {
             musica.splice(i, 1);
         }
     });
+    console.log("Musica eliminada");
     res.send("Eliminado");
     //res.send(musica);
 });
+
+//Ruta para actualizar datos de la base de datos de musica.json
+router.put("/:id", (req,res) => {
+    const {id}=req.params;
+    console.log(id);
+    const { banda, genero, origen } = req.body;
+    console.log(banda, genero, origen);
+    if (banda && genero && origen) {
+        _.each(musica, (music, i) => {
+            if (music.id == id) {
+                music.banda = banda;
+                music.genero = genero;
+                music.origen = origen;
+            }
+        });
+        res.json(musica);
+    } else {
+        res.status(5000)("Error al actualizar datos");
+    }
+
+});
+
 
 module.exports = router;

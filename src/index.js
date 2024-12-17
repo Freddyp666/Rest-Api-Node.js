@@ -15,6 +15,7 @@ app.use(express.json());//Poder resivir formatos json
 //routes
 app.use(require('./routes/index'));
 app.use('/api/musica',  require('./routes/musica'));
+app.use('/api/users', require('./routes/users').default);
 
 //Empezando el sercvidor
 app.listen(3000, () => {

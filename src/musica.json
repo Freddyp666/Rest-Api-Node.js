@@ -4,125 +4,70 @@
         "banda": "Led Zeppelin",
         "genero": "Hard rock",
         "origen": "Inglaterra",
-        "formacion": 1968,
-        "albumes": [
-            "Led Zeppelin IV",
-            "Houses of the Holy"
-        ],
-        "sencillos": [
-            "Stairway to Heaven",
-            "Whole Lotta Love"
-        ]
+        "formacion": 1968
+
     },
     {
         "id": 2,
         "banda": "Pink Floyd",
         "genero": "Rock progresivo",
         "origen": "Inglaterra",
-        "formacion": 1965,
-        "albumes": [
-            "The Dark Side of the Moon",
-            "Wish You Were Here"
-        ],
-        "sencillos": [
-            "Another Brick in the Wall (Part 2)",
-            "Money"
-        ]
+        "formacion": 1965
     },
     {
         "id": 3,
         "banda": "The Beatles",
         "genero": "Rock",
         "origen": "Inglaterra",
-        "formacion": 1960,
-        "albumes": [
-            "Abbey Road",
-            "Sgt. Pepper's Lonely Hearts Club Band"
-        ],
-        "sencillos": "Hey Jude"
+        "formacion": 1960
     },
     {
         "id": 4,
         "banda": "Queen",
         "genero": "Rock",
         "origen": "Reino Unido",
-        "formacion": 1970,
-        "albumes": [
-            "A Night at the Opera",
-            "Bohemian Rhapsody"
-        ],
-        "sencillos": "Bohemian Rhapsody"
+        "formacion": 1970
     },
     {
         "id": 5,
         "banda": "AC/DC",
         "genero": "Hard rock",
         "origen": "Australia",
-        "formacion": 1973,
-        "albumes": [
-            "Back in Black",
-            "Highway to Hell"
-        ],
-        "sencillos": "Back in Black"
+        "formacion": 1973
     },
     {
         "id": 6,
         "banda": "Metallica",
         "genero": "Heavy metal",
         "origen": "Estados Unidos",
-        "formacion": 1981,
-        "albumes": [
-            "Master of Puppets",
-            "...And Justice for All"
-        ],
-        "sencillos": "Enter Sandman"
+        "formacion": 1981
     },
     {
         "id": 7,
         "banda": "Nirvana",
         "genero": "Grunge",
         "origen": "Estados Unidos",
-        "formacion": 1987,
-        "albumes": [
-            "Nevermind",
-            "Bleach"
-        ],
-        "sencillos": "Smells Like Teen Spirit"
+        "formacion": 1987
     },
     {
         "id": 8,
         "banda": "The Rolling Stones",
         "genero": "Rock",
         "origen": "Inglaterra",
-        "formacion": 1962,
-        "albumes": [
-            "Sticky Fingers",
-            "Exile on Main St."
-        ],
-        "sencillos": "(I Can't Get No) Satisfaction"
+        "formacion": 1962
     },
     {
         "id": 9,
         "banda": "Red Hot Chili Peppers",
         "genero": "Rock alternativo",
         "origen": "Estados Unidos",
-        "formacion": 1983,
-        "albumes": [
-            "Blood Sugar Sex Magik",
-            "Californication"
-        ],
-        "sencillos": "Give It Away"
+        "formacion": 1983
     },
     {
         "id": 10,
         "banda": "Radiohead",
         "genero": "Rock alternativo",
         "origen": "Inglaterra",
-        "formacion": 1985,
-        "albumes": [
-            "OK Computer",
-            "The Bends"
-        ],
-        "sencillos": "Creep"
+        "formacion": 1985
     }
 ]
